@@ -4,11 +4,15 @@ import Home from "../Pages/Home";
 
 export const router = createBrowserRouter([
   {
-    path: "/login",
+    path: "/",
     element: <Login />,
   },
   {
-    path: "/",
+    path: "/home",
     element: <Home />,
   },
+  // {
+  //   path: "/register",
+  //   element: <Register />,
+  // },
 ]);
